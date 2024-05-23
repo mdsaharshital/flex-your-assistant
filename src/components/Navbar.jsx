@@ -34,7 +34,7 @@ const Navbar = () => {
 
             <ul
               className="flex md:flex-row flex-col md:items-center md:gap-[48px] gap-8 text-[16px]
-            font-medium text-gray-500 md:text-center text-left"
+            font-medium text-[#556987] md:text-center text-left"
             >
               <li>
                 <a className="" href="#">

@@ -23,10 +23,10 @@ const Hero = () => {
           <h1 className="md:text-6xl text-4xl text-center md:text-start font-bold mt-4 ">
             A small business <br /> is only as good <br /> as its tools.
           </h1>
-          <p className="mt-2 text-xl text-gray-500 pt-8 pb-6">
+          <p className="mt-2 text-xl text-[#556987] pt-8 pb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-          <div className="mt-4 list-disc list-inside text-xl text-gray-500">
+          <div className="mt-4 list-disc list-inside text-xl text-[#556987]">
             <p className="flex items-center gap-3">
               <FaCheckCircle className="text-green-500" /> Mauris pellentesque
               congue libero nec
@@ -63,7 +63,7 @@ const JoinOurCommunity = () => {
       />
       <div className="w-[300px] xl:min-w-[384px] mx-auto ">
         <h1 className="text-3xl font-bold pt-14 pb-4">Join Our Community</h1>
-        <h4 className="text-lg text-gray-500 pb-7">Start your free trial</h4>
+        <h4 className="text-lg text-[#556987] pb-7">Start your free trial</h4>
         <div className="pt-6 pb-4 mx-auto">
           <label htmlFor="email" className="block text-left pb-[6px]">
             Email
@@ -109,7 +109,7 @@ const JoinOurCommunity = () => {
           <img src={apple} />
           <span> Sign in with Apple</span>
         </button>
-        <p className="text-sm text-gray-500 text-center">
+        <p className="text-sm text-[#556987] text-center">
           Already have an account?{" "}
           <a href="http://" className="text-green-500">
             Sign In
