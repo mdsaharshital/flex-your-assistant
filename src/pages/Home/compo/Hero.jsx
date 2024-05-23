@@ -26,7 +26,7 @@ const Hero = () => {
           <p className="mt-2 text-xl text-[#556987] pt-8 pb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-          <div className="mt-4 list-disc list-inside text-xl text-[#556987]">
+          <div className="mt-4 list-disc list-inside md:text-xl text-[#556987]">
             <p className="flex items-center gap-3">
               <FaCheckCircle className="text-green-500" /> Mauris pellentesque
               congue libero nec
