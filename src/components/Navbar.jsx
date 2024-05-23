@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-
+import logo from "../assets/logo-nav.svg";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,13 +11,14 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="">
+      <header className="md:py-0 py-4 px-4 lg:px-[9vw] xl:px-[7pw]">
         <nav className="flex justify-between items-center w-[92%] mx-auto">
-          <div>
+          <div className="flex gap-2 items-center">
             <img
-              className="w-16 cursor-pointer"
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png"
-              alt="..."
+              className="cursor-pointer"
+              width={94}
+              src={logo}
+              alt="flex logo"
             />
           </div>
 
@@ -58,8 +59,10 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex items-center gap-6 md:text-sm text-xs">
-            <button className="text-black p-[6px]">Login</button>
-            <button className="bg-[#22C55E] text-white md:px-4 md:py-2 px-2 py-1 rounded-md ">
+            <button className="p-[6px] text-base text-[#556987] font-medium">
+              Log In
+            </button>
+            <button className="bg-green-500 text-white md:px-4 md:py-2 px-2 py-1 rounded-md ">
               Sign Up
             </button>
             <CiMenuFries
