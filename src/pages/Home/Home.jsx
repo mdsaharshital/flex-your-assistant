@@ -1,4 +1,4 @@
-import wave from "../../assets/BGWave.svg";
+import wave from "/assets/BGWave.svg";
 import FeaturesHome from "./compo/FeatureHome";
 import Hero from "./compo/Hero";
 import NumbersHome from "./compo/NumbersHome";

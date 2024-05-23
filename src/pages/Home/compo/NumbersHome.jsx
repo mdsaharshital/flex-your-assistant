@@ -1,4 +1,4 @@
-import pattern from "../../../assets/Pattern.svg";
+import pattern from "/assets/Pattern.svg";
 
 const NumbersHome = () => {
   return (

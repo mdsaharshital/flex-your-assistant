@@ -1,7 +1,7 @@
-import featureImage from "../../../assets/featureImg.svg"; // Adjust the path accordingly
-import message from "../../../assets/message.svg"; // Adjust the path accordingly
-import user from "../../../assets/user.svg"; // Adjust the path accordingly
-import chart from "../../../assets/chart.svg"; // Adjust the path accordingly
+import featureImage from "/assets/featureImg.svg"; // Adjust the path accordingly
+import message from "/assets/message.svg"; // Adjust the path accordingly
+import user from "/assets/user.svg"; // Adjust the path accordingly
+import chart from "/assets/chart.svg"; // Adjust the path accordingly
 
 const FeaturesHome = () => {
   return (

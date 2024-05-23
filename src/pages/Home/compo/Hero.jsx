@@ -1,7 +1,7 @@
-import fb from "../../../assets/fb.svg";
-import apple from "../../../assets/apple.svg";
-import google from "../../../assets/google.svg";
-import logo from "../../../assets/Group.svg";
+import fb from "/assets/fb.svg";
+import apple from "/assets/apple.svg";
+import google from "/assets/google.svg";
+import logo from "/assets/Group.svg";
 import { FaCheckCircle } from "react-icons/fa";
 const Hero = () => {
   return (

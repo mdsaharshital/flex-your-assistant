@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-import logo from "../assets/logo-nav.svg";
+import logo from "/assets/logo-nav.svg";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
